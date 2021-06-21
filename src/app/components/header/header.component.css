@@ -11,4 +11,5 @@
 h1 {
   text-align: center;
   font-weight: bold;
+  text-shadow: 0.005rem 0.005rem 0.5rem rgba(255, 255, 255, 0.404);
 }

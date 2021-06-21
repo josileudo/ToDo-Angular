@@ -4,6 +4,14 @@
   align-items: center;
 }
 
+form {
+  width: 90%;
+}
+
+.field {
+  display: flex;
+}
+
 input {
   border: none;
   border-radius: 0.5rem;
