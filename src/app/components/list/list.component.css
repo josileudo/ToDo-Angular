@@ -1,0 +1,45 @@
+.list-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.001rem 0.001rem 0.3rem rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  width: 90%;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+}
+
+input::placeholder {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+button {
+  background: #e94948;
+  color: #fff;
+  border: none;
+
+  margin-left: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f34c4c;
+  transition: background 0.3s;
+}
+
+
